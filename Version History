@@ -1,11 +1,19 @@
 Version:
+  0.1.2:
+    Added documentation for NPVCSample and NPVCFill.
+    Added a new function NPVCFill that can simulate missing values.
+    Added a parameter to NPVC that changes the sensitivity of the independence test.
+    Improved the bivariate copula estimators performance and stopped it from giving negative densities.
+    Fixed an issue with the NPVCSample not working.
+    
+
   0.1.1:
     Added internal test for bivariate independence to improve performance.
     Changed how an NPVC model is stored to reduce memory usage and allow for more freedom in the vine specification.
 
   0.1.0:
     Initial release.
-    Functionality to estimate and conditionally sample non-parametric vine copula models
+    Functionality to estimate and conditionally sample non-parametric vine copula models.
     
 
 
