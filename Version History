@@ -13,7 +13,7 @@ Version:
 
   0.1.0:
     Initial release.
-    Functionality to estimate and conditionally sample non-parametric vine copula models.
+    Added two functions to estimate (NPVC) and conditionally sample (NPVCSample) non-parametric vine copula models.
     
 
 
