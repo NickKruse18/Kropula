@@ -1,5 +1,5 @@
 Version History:
-  0.1.2:
+  0.1.2, June 4 2023:
     Added documentation for NPVCSample and NPVCFill.
     Added a new function NPVCFill that can simulate missing values.
     Added a parameter to NPVC that changes the sensitivity of the independence test.
@@ -7,11 +7,11 @@ Version History:
     Fixed an issue with the NPVCSample not working.
     
 
-  0.1.1:
+  0.1.1, May 20 2023:
     Added internal test for bivariate independence to improve performance.
     Changed how an NPVC model is stored to reduce memory usage and allow for more freedom in the vine specification.
 
-  0.1.0:
+  0.1.0, May 16 2023:
     Initial release.
     Added two functions to estimate (NPVC) and conditionally sample (NPVCSample) non-parametric vine copula models.
     
