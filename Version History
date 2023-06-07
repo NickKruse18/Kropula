@@ -1,9 +1,16 @@
 Version History:
+  1.0.0, June 7 2023:
+    Changed the NPVC model to allow for parametric pairwise copulae.
+    Added the bivariate Gaussian copula to the possible parametric copulae in the NPVC model.
+    Improved the bivariate copula estimator by reverting some changes and by relaxing some criteria.
+    Changed the default bandwidth for the kernel to inversely scale with sample size.
+    Updated documentation for NPVC to include the independence sensitivity.
+    
   0.1.2, June 4 2023:
-    Added documentation for NPVCSample and NPVCFill.
     Added a new function NPVCFill that can simulate missing values.
     Added a parameter to NPVC that changes the sensitivity of the independence test.
     Improved the bivariate copula estimators performance and stopped it from giving negative densities.
+    Added documentation for NPVCSample and NPVCFill.
     Fixed an issue with the NPVCSample not working.
     
 
