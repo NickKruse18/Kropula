@@ -1,6 +1,7 @@
 Version History:
 1.0.1, June 30 2023:
     Fixed some issues with NPVCSample not working.
+    Fixed the uniform parameter in NPVCSample such that TRUE correctly assumes val is given quantiles.
     Updated documentation for NPVC to match its current definition.
 
   1.0.0, June 7 2023:
