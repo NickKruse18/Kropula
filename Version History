@@ -1,4 +1,8 @@
 Version History:
+1.0.1, June 30 2023:
+    Fixed some issues with NPVCSample not working.
+    Updated documentation for NPVC to match its current definition.
+
   1.0.0, June 7 2023:
     Changed the NPVC model to allow for parametric pairwise copulae.
     Added the bivariate Gaussian copula to the possible parametric copulae in the NPVC model.
